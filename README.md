@@ -51,7 +51,9 @@ Installation
 Clone this repository to your local machine:
 
 Edit
+
 git clone https://github.com/celikmuratt/login-signup-page.git
+
 Open the project folder and view the project by opening the index.html file in your browser.
 
 
