@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <!-- 
+    Proje: Modern Giriş Sayfası
+    Açıklama: Kullanıcıların giriş yapabileceği ve hesap oluşturabileceği modern bir arayüz.
+    Geliştirici: Murat Çelik
+    Tarih: 03/20/2025
+    -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FontAwesome ikon kütüphanesi -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Harici CSS dosyası -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Modern Giriş Sayfası</title>
+
+    <!-- Google Fonts'dan Montserrat fontunu içe aktarma -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <!-- Ana kapsayıcı div -->
+    <div class="container" id="container">
+
+        <!-- Hesap oluşturma formu -->
+        <div class="form-container sign-up">
+            <form>
+                <h1>Hesap Oluştur</h1>
+
+                <!-- Sosyal medya ile kayıt olma seçenekleri -->
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+
+                <span style="font-size: 14px;">E-posta adresinizle kayıt olun</span>
+
+                <!-- Kullanıcı giriş bilgileri -->
+                <input type="text" placeholder="Kullanıcı Adı">
+                <input type="email" placeholder="E-posta">
+                <input type="password" placeholder="Şifre">
+
+                <button>Hesap Oluştur</button>
+            </form>
+        </div>
+
+        <!-- Kullanıcı giriş formu -->
+        <div class="form-container sign-in">
+            <form>
+                <h1>Giriş Yap</h1>
+
+                <!-- Sosyal medya ile giriş seçenekleri -->
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+
+                <span style="font-size: 14px;">E-posta adresinizi kullanarak giriş yapın</span>
+
+                <!-- Kullanıcı giriş bilgileri -->
+                <input type="email" placeholder="E-posta">
+                <input type="password" placeholder="Şifre">
+
+                <!-- Şifre sıfırlama bağlantısı -->
+                <a href="#">Şifrenizi mi unuttunuz?</a>
+
+                <button>Giriş Yap</button>
+            </form>
+        </div>
+
+        <!-- Giriş / Kayıt geçiş paneli -->
+        <div class="toggle-container">
+            <div class="toggle">
+
+                <!-- Giriş paneli -->
+                <div class="toggle-panel toggle-left">
+                    <h1>Giriş Yap.</h1>
+                    <p style="font-size: 14px;">Kaldığınız yerden devam etmek için giriş yapın.</p>
+                    <button class="hidden" id="login">Giriş Yap</button>
+                </div>
+
+                <!-- Kayıt paneli -->
+                <div class="toggle-panel toggle-right">
+                    <h1>Merhaba!</h1>
+                    <p style="font-size: 14px;">Bize katılmak için hesabınızı oluşturun.</p>
+                    <button class="hidden" id="register">Hesap Oluştur</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript dosyası -->
+    <script src="script.js"></script>
+</body>
+
+</html>
