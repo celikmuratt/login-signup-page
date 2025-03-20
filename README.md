@@ -34,3 +34,30 @@ Burada, sayfanın görünümüne dair örnek resimler bulunmaktadır:
 ![image](https://github.com/user-attachments/assets/4833fd13-b884-4355-921d-44bae41be105)
 
 ![image](https://github.com/user-attachments/assets/cd8a6921-9cae-4862-8758-b0ca72de0fcd)
+
+
+A modern and responsive login and signup page built using HTML, CSS, and JavaScript.
+
+Features
+Responsive Design: Adapts to different screen sizes, suitable for both mobile and desktop users.
+Smooth Animations: Enhances user experience with CSS transitions and animations.
+User Authentication: Simple authentication process (no server-side), implemented with JavaScript.
+
+Technologies
+HTML
+CSS
+JavaScript
+Installation
+Clone this repository to your local machine:
+
+Edit
+git clone https://github.com/celikmuratt/login-signup-page.git
+Open the project folder and view the project by opening the index.html file in your browser.
+
+
+Here are example images showcasing the appearance of the page:
+![image](https://github.com/user-attachments/assets/4833fd13-b884-4355-921d-44bae41be105)
+
+![image](https://github.com/user-attachments/assets/cd8a6921-9cae-4862-8758-b0ca72de0fcd)
+
+
