@@ -9,16 +9,13 @@ Kullanılan Teknolojiler
 HTML: Sayfa yapısının oluşturulması için kullanılır.
 CSS: Sayfanın modern ve duyarlı olmasını sağlayacak stil tasarımı.
 JavaScript: Sayfanın etkileşimli olmasını sağlamak için kullanılır (kullanıcı doğrulaması ve form kontrolü).
+
 Kurulum
 Bu repository'yi bilgisayarınıza klonlayın:
-
-bash
-Copy
-Edit
 git clone https://github.com/yourusername/login-signup-page.git
 İlgili dosyalarla birlikte proje klasörünü açın.
-
 index.html dosyasını tarayıcınızda açarak projeyi görüntüleyebilirsiniz.
+
 
 Katkı
 Forklayın.
@@ -26,3 +23,5 @@ Yeni bir branch oluşturun (git checkout -b feature-xyz).
 Değişikliklerinizi yapın ve commit edin (git commit -am 'Add feature xyz').
 Branch'ı GitHub'a push edin (git push origin feature-xyz).
 Pull request açın.
+
+![image](https://github.com/user-attachments/assets/4833fd13-b884-4355-921d-44bae41be105)
